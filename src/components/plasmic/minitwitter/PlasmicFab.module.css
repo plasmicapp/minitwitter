@@ -1,0 +1,25 @@
+.root {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  width: 51px;
+  height: 51px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  background: rgb(87, 205, 231);
+}
+.root:hover {
+  background: rgb(129, 222, 242);
+}
+.root:active {
+  background: rgb(72, 190, 216);
+}
+.box {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+}
